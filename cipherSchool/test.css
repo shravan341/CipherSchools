@@ -1,0 +1,23 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    text-align:center
+}
+/*
+descendant selector
+*/
+div p{
+    background-color: yellow;
+}
+
+/*
+general sibling selector
+*/
+div ~p:hover{
+    background-color: yellow;
+}
+
+a[target]{
+    background-color: aqua;
+}
